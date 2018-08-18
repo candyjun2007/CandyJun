@@ -9,19 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyJun.CryptoService", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyJun.Crypto.Web", "CandyJun.Crypto.Web\CandyJun.Crypto.Web.csproj", "{96C318B4-8135-409E-B1D3-78DA4176EA16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyJun.ImageSort", "CandyJun.ImageSort\CandyJun.ImageSort.csproj", "{6A915E80-446F-46DE-A8A4-8EEFDE1CF6AC}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyJun.ImageSort.Web", "CandyJun.ImageSort.Web\CandyJun.ImageSort.Web.csproj", "{316F4E24-B0BF-4B7C-8602-41410AFA3414}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyJun.MicroserviceMnagement.Web", "CandyJun.MicroserviceMnagement.Web\CandyJun.MicroserviceMnagement.Web.csproj", "{D68450A2-9103-4F6E-AEFD-51C549B902FF}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyJun.MicroserviceMnagement.Service", "CandyJun.MicroserviceMnagement.Service\CandyJun.MicroserviceMnagement.Service.csproj", "{BD8BE1F6-A9AA-40A2-9290-E2C8DF8A1C4D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyJun.MicroserviceMnagement.Client", "CandyJun.MicroserviceMnagement.Client\CandyJun.MicroserviceMnagement.Client.csproj", "{83C4763F-7EEF-437B-9FFF-25B0678ACA58}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyJun.MicroserviceMnagement.Server", "CandyJun.MicroserviceMnagement.Server\CandyJun.MicroserviceMnagement.Server.csproj", "{54E3A984-037B-40F8-970D-374C5895A2B9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandyJun.ServerManagement", "CandyJun.ServerManagement\CandyJun.ServerManagement.csproj", "{5AE7D12C-6AFC-4493-A4DB-5C8B928E344A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyJun.ServerManagement", "CandyJun.ServerManagement\CandyJun.ServerManagement.csproj", "{5AE7D12C-6AFC-4493-A4DB-5C8B928E344A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,30 +29,6 @@ Global
 		{96C318B4-8135-409E-B1D3-78DA4176EA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96C318B4-8135-409E-B1D3-78DA4176EA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96C318B4-8135-409E-B1D3-78DA4176EA16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A915E80-446F-46DE-A8A4-8EEFDE1CF6AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A915E80-446F-46DE-A8A4-8EEFDE1CF6AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A915E80-446F-46DE-A8A4-8EEFDE1CF6AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A915E80-446F-46DE-A8A4-8EEFDE1CF6AC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{316F4E24-B0BF-4B7C-8602-41410AFA3414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{316F4E24-B0BF-4B7C-8602-41410AFA3414}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{316F4E24-B0BF-4B7C-8602-41410AFA3414}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{316F4E24-B0BF-4B7C-8602-41410AFA3414}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D68450A2-9103-4F6E-AEFD-51C549B902FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D68450A2-9103-4F6E-AEFD-51C549B902FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D68450A2-9103-4F6E-AEFD-51C549B902FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D68450A2-9103-4F6E-AEFD-51C549B902FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD8BE1F6-A9AA-40A2-9290-E2C8DF8A1C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD8BE1F6-A9AA-40A2-9290-E2C8DF8A1C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD8BE1F6-A9AA-40A2-9290-E2C8DF8A1C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD8BE1F6-A9AA-40A2-9290-E2C8DF8A1C4D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{83C4763F-7EEF-437B-9FFF-25B0678ACA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83C4763F-7EEF-437B-9FFF-25B0678ACA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83C4763F-7EEF-437B-9FFF-25B0678ACA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83C4763F-7EEF-437B-9FFF-25B0678ACA58}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54E3A984-037B-40F8-970D-374C5895A2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54E3A984-037B-40F8-970D-374C5895A2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54E3A984-037B-40F8-970D-374C5895A2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54E3A984-037B-40F8-970D-374C5895A2B9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5AE7D12C-6AFC-4493-A4DB-5C8B928E344A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5AE7D12C-6AFC-4493-A4DB-5C8B928E344A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AE7D12C-6AFC-4493-A4DB-5C8B928E344A}.Release|Any CPU.ActiveCfg = Release|Any CPU
