@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BouncyCastle.CoreClr" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CandyJun.Common\CandyJun.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="HashCrypto\" />
+  </ItemGroup>
+
+</Project>
